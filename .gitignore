@@ -1,0 +1,14 @@
+.DS_Store
+**/build/
+**/build-cli/
+**/.gradle/
+**/local.properties
+**/*.xcodeproj/
+**/DerivedData/
+**/xcuserdata/
+**/__pycache__/
+*.keystore
+*.p12
+*.mobileprovision
+password.txt
+.env

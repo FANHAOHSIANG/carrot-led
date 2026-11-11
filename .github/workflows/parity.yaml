@@ -1,0 +1,10 @@
+name: Shared feature fixtures
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  parity:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 tests/check_parity.py
