@@ -21,6 +21,9 @@
 
 ## 保留的平台差異
 
+Apple 的 [Live Activity 官方限制](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities?changes=_6) 與 App 自訂時限是兩回事：單一 Live Activity 最多啟用八小時，之後會從動態島移除。移除 Android 八小時上限不會取消 iOS 這項系統限制；本版也未宣稱能無限續接動態島。
+
+
 - iPhone 使用可見行程 GPS 與 CoreLocation；Android GPS 是可選功能，背景車況本身由 connectedDevice 前景服務執行。關閉定位的效果與系統權限流程不同。
 - iPhone 背景完全沒有可接受橋接回覆達五分鐘會結束該背景會話；前景可以重新連線。Android 前景服務持續重試直到使用者停止或系統終止。這是資源／生命週期策略差異，不是假回覆重置計時。
 - Android 可測試通知橫幅，iOS 以 Live Activity 呈現；通知是否彈出、展開、發聲由作業系統及車機設定決定。

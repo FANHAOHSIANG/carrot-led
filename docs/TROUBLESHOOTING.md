@@ -31,3 +31,7 @@ python3 diagnose_link.py --host 127.0.0.1 --seconds 30
 ```
 
 預設讀 `/data/iphone-led/token`，輸出摘要不列金鑰或車況。若 C4 本機正常、Android 遠端失敗，優先查熱點／路由／車機限制；若 C4 本機也慢或 `valid:false`，查橋接與 carState 來源。避免同埠重複啟動橋接。
+
+## 免費 Personal Team 簽署到期
+
+Apple 官方說明免費 Personal Team 的 provisioning profile 七天到期，需重新建置與安裝；這不是車況背景逾時。使用原 Team 與 Bundle ID 更新。詳見 [Apple Developer account overview](https://developer.apple.com/help/account/basics/about-your-developer-account)。

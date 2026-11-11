@@ -16,6 +16,7 @@ iOS ZIP **不是可直接點擊安裝的 IPA，也不是 TestFlight**。下載�
 - **[介紹、安裝指令與 C4 金鑰取得](docs/INSTALL.md)**
 - **[兩平台功能對照、差異與驗證範圍](docs/PARITY.md)**
 - **[背景、通知、區網問題排查](docs/TROUBLESHOOTING.md)**
+- [測試證據與待驗證項目](docs/VERIFICATION.md)
 - [本次更新](CHANGELOG.md) · [第三方來源](THIRD_PARTY.md)
 
 ## 兩平台共同功能

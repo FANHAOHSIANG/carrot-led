@@ -1,0 +1,19 @@
+{
+  "android": {
+    "version": "0.1.11",
+    "version_code": 12,
+    "package": "tw.carrot.led",
+    "file": "downloads/CarrotLED-0.1.11.apk",
+    "sha256": "2b5d1bbc9208b92fd9a6e06385297ae268ae8c386648341979e6d92f2ae7baab",
+    "signing_certificate_sha256": "1cf22fc66c9b3333d93077bb40102135186732570614d754e45536e4fd2b799d"
+  },
+  "ios": {
+    "version": "0.32",
+    "build": 32,
+    "kind": "Xcode source; not IPA",
+    "file": "downloads/CarrotLED-iOS-0.32-Source.zip",
+    "sha256": "e46af309a758132f050db5b0bc71d41f8e3e381ac0153d9797656f2171d42538"
+  },
+  "source_commit": "fb45216edd8c1bdbbd2156302afad2889d73a838",
+  "upstream_source_commit": "acde165f9fed5141d309d76163d5d58b26371e39"
+}
